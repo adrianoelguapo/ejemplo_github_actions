@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  backend:
-    image: backend_docker:latest
+  new-backend:
+    image: adrianodoblea/ejemplo-usuarios:latest
     container_name: backend
     ports:
       - "5000:5000"
