@@ -28,7 +28,7 @@ async function connectToDB() {
     await client.connect();
     const db = client.db('despliegue_docker');
     coleccion = db.collection('users');
-    console.log("Conectado a MongoDB");
+    console.log("Conectado a MongoDB Atlas");
   } catch (error) {
     console.error("Error al conectar a MongoDB:", error);
   }
